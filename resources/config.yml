@@ -1,0 +1,17 @@
+# TurkAuth v2 Config
+
+# language
+dil: tr
+
+# veri kaydetme (data saving)
+# Mevcut (available): MYSQL, YAML
+veri-kaydetme: YAML
+
+mysql:
+  # username
+  kullanici-adi: root
+  host: 127.0.0.1
+  port: 3306
+  # password
+  sifre: sifre
+  dbname: turkauth
